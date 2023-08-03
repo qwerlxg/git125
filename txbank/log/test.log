@@ -1,0 +1,7 @@
+17:10:47.565 INFO  com.yc.Test2_DataSourceConfig 74 testEnvironment - 123456	C:\Users\LXGqwer
+17:10:47.613 INFO  com.yc.Test2_DataSourceConfig 61 testDbcpDataSource - 318794136, URL=jdbc:mysql://localhost:3306/bank?useUnicode=true&characterEncoding=UTF-8, MySQL Connector/J
+17:10:47.633 INFO  com.yc.Test2_DataSourceConfig 55 testDBCPConnection - com.mysql.cj.jdbc.ConnectionImpl@6d6bc1581234
+17:10:47.635 INFO  com.yc.Test2_DataSourceConfig 69 testPropertySource - root
+17:10:47.696 INFO  com.yc.dao.AccountDaoJdbcTemplateImplTest 52 insert - 新开账户：4
+17:10:47.709 INFO  com.yc.dao.AccountDaoJdbcTemplateImplTest 40 findAll - [Account(accountid=1, money=20.0), Account(accountid=2, money=100.0), Account(accountid=4, money=100.0)]
+17:10:47.736 INFO  com.yc.dao.AccountDaoJdbcTemplateImplTest 46 findById - Account(accountid=2, money=100.0)
