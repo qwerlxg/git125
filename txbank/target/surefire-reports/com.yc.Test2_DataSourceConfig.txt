@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: com.yc.Test2_DataSourceConfig
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.138 s <<< FAILURE! - in com.yc.Test2_DataSourceConfig
+testDruidDataSource(com.yc.Test2_DataSourceConfig)  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceConfig': Unsatisfied dependency expressed through field 'cpuCount'; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Caused by: java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+testEnvironment(com.yc.Test2_DataSourceConfig)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceConfig': Unsatisfied dependency expressed through field 'cpuCount'; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Caused by: java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+testDbcpDataSource(com.yc.Test2_DataSourceConfig)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceConfig': Unsatisfied dependency expressed through field 'cpuCount'; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Caused by: java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+testDBCPConnection(com.yc.Test2_DataSourceConfig)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceConfig': Unsatisfied dependency expressed through field 'cpuCount'; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Caused by: java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
+testPropertySource(com.yc.Test2_DataSourceConfig)  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceConfig': Unsatisfied dependency expressed through field 'cpuCount'; nested exception is org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Caused by: org.springframework.beans.factory.BeanExpressionException: Expression parsing failed; nested exception is java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+Caused by: java.lang.NoSuchMethodError: org.springframework.util.ClassUtils.getInterfaceMethodIfPossible(Ljava/lang/reflect/Method;Ljava/lang/Class;)Ljava/lang/reflect/Method;
+
