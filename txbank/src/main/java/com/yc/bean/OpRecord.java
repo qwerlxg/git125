@@ -5,10 +5,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-@Data
+
 @AllArgsConstructor //带所有参数的构造方法
 @NoArgsConstructor //无参
 @ToString //生成tostring
+@Data
 public class OpRecord {
     private int id;
     private int accountid;

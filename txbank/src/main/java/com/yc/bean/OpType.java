@@ -3,7 +3,9 @@ package com.yc.bean;
 
 //枚举  enum
 public enum  OpType {
-   WITHDRAW("withdraw",1),DEPOSITE("deposite",2),TRANSFER("transfer",3) ;
+    WITHDRAW("withdraw",1), //取
+    DEPOSITE("deposite",2),  //存
+    TRANSFER("transfer",3) ;  //转
     private String key;
     private int value;
 

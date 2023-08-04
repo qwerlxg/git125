@@ -4,6 +4,7 @@ import com.yc.bean.OpRecord;
 import com.yc.bean.OpType;
 import com.yc.configs.Config;
 import com.yc.configs.DataSourceConfig;
+import com.yc.dao.OpRecordDao;
 import jdk.nashorn.internal.runtime.regexp.joni.constants.OPCode;
 import junit.framework.TestCase;
 import lombok.extern.log4j.Log4j2;

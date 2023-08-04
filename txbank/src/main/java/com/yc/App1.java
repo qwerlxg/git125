@@ -6,9 +6,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class App1 {
-    public static void main(String[] args) {
-        ApplicationContext ac = new AnnotationConfigApplicationContext(Config.class);
-        AccountBiz ab = ac.getBean(AccountBiz.class);
-        ab.addAcount(1,99);
-    }
+    // public static void main(String[] args) {
+    //     ApplicationContext ac = new AnnotationConfigApplicationContext(Config.class);
+    //     AccountBiz ab = ac.getBean(AccountBiz.class);
+    //     ab.addAcount(1,99);
+    // }
 }

@@ -4,6 +4,7 @@ package com.yc.dao;
 import com.yc.bean.Account;
 import com.yc.configs.Config;
 import com.yc.configs.DataSourceConfig;
+import com.yc.dao.AccountDao;
 import junit.framework.TestCase;
 import lombok.extern.log4j.Log4j2;
 import org.junit.Assert;

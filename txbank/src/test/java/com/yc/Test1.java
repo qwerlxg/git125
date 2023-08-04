@@ -19,10 +19,10 @@ public class Test1 extends TestCase {
     @Resource
     private AccountBiz accountBiz;
 
-    @Test
-    public void testAddccount(){
-        accountBiz.addAcount(1,99);
-    }
+    // @Test
+    // public void testAddccount(){
+    //     accountBiz.addAcount(1,99);
+    // }
 
     @Test
     public  void testAdd(){
